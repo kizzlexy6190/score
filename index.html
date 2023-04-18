@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <div id="sum"></div> -->
+    <!-- <div id="subtract"></div> -->
+    <!-- <div id="time"></div> -->
+    <!-- <div id="divide"></div> -->
+
+    <!-- <button onclick="plus(5,5,5)">Addequal</button> <br> <br> -->
+  <div class="score">
+    <div class="sum">
+        <p>The sum of four operands is: <span id="sum"></span></p>
+        <button onclick="add(3,5,6,8)"> ADD</button>
+    </div>
+    
+    <div class="sub">
+        <p>The Subtraction of four operands is: <span id="subtract"></span></p>
+        <button onclick="mins(4,7,9,1)">Subtract</button> 
+    </div>
+    <div class="divide">
+        <p>The Division of four operands is: <span id="divide"></span></p>
+        <button onclick="divide(5,5,3,4)">Divide</button> <br> <br>
+    </div>
+    <div class="multiply">
+         <p>The Multiplication of four operands is: <span id="multiplication"></span></p>
+        <button onclick="multiply(8,5,2,6)">Multiplication</button> <br> <br>
+    </div>
+    
+  </div>
+    
+
+    
+   
+
+    <script>
+        function add(a =0,b =0,c =0, d =0) {
+            document.getElementById('sum').innerHTML= a+b+c+d;
+        }
+        function mins(a =0,b =0,c =0, d =0) {
+            document.getElementById('subtract').innerHTML= a-b-c-d;
+        }
+        function divide(a =0,b =0,c =0, d =0) {
+            document.getElementById('divide').innerHTML= a/b/c/d;
+        }
+        function multiply(a =0,b =0,c =0, d =0) {
+            document.getElementById('multiplication').innerHTML= a*b*c*d;
+        }
+    </script>
+</body>
+</html>

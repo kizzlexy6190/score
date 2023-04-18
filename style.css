@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right,rgb(90, 91, 95), rgba(230, 160, 55, 0.596));
+}
+.score{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    width: fit-content;
+    padding: 30px;
+    text-align: center;
+}
+.sum button{
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    background-color: green;
+    font-size: 10px;
+    margin: 4px 2px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    box-shadow: 0 8px 10px 0;
+}
+.sum button:hover{
+    color: black;
+}
+.sub button{
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    background-color: orange;
+    font-size: 10px;
+    margin: 4px 2px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    box-shadow: 0 8px 10px 0;
+}
+.sub button:hover{
+    color: black;
+}
+.divide button{
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    background-color: blue;
+    font-size: 10px;
+    margin: 4px 2px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    box-shadow: 0 8px 10px 0;
+}
+.divide button:hover{
+    color: black;
+}
+.multiply button{
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    background-color: gray;
+    font-size: 10px;
+    margin: 4px 2px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    box-shadow: 0 8px 10px 0;
+}
+.multiply button:hover{
+    color: black;
+}
